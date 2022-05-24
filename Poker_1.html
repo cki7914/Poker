@@ -9,30 +9,48 @@
 <body>
     <div id="container">
 
-        <section id="display_dealer_area">
-            <div id="display_dealer_deck_area">
-                <div id="display_dealer_deck_card"></div>
-                <div id="display_dealer_deck_count"></div>
+        <section id="display_public">
+            <div id="display_public_deckArea">
+                <div id="display_public_deck" class = "card"></div>
+                <div id="display_public_deckCount"></div>
             </div>
-
-            <div id="display_dealer_bet_area">
-                <div id="display_dealer_bet_count"></div>
+            <div id="display_public_betArea">
+                <div id="display_public_bet"></div>
             </div>
+        </section><!--#display_public-->
 
-            <div id="display_dealer_card_area">
-                <div id="display_dealer_card_1" class="display_dealer_card"></div>
-                <div id="display_dealer_card_2" class="display_dealer_card"></div>
-                <div id="display_dealer_card_3" class="display_dealer_card"></div>
-                <div id="display_dealer_card_4" class="display_dealer_card"></div>
-                <div id="display_dealer_card_5" class="display_dealer_card"></div>
+        <section id="display_player">
+            <div id="display_player_handArea">
+                <ul>
+                    <li><button class="button_mulligan">교체</button></li>
+                    <li><button class="button_mulligan">교체</button></li>
+                    <li><button class="button_mulligan">교체</button></li>
+                    <li><button class="button_mulligan">교체</button></li>
+                    <li><button class="button_mulligan">교체</button></li>
+                </ul>
+                <ul>
+                    <li><div id="display_player_hand_1" class="card"></div></li>
+                    <li><div id="display_player_hand_2" class="card"></div></li>
+                    <li><div id="display_player_hand_3" class="card"></div></li>
+                    <li><div id="display_player_hand_4" class="card"></div></li>
+                    <li><div id="display_player_hand_5" class="card"></div></li>
+                </ul>
             </div>
-        </section><!--#display_dealer-->
-
-        <section id="display_player_1_area">
-            <div id="display_player_1_">
-
+            <div id="display_player_betArea">
+                <div>
+                    <ul>
+                        <li><button class="button_player" id="button_player_1">btn1</button></li>
+                        <li><button class="button_player" id="button_player_2">btn2</button></li>
+                        <li><button class="button_player" id="button_player_3">btn3</button></li>
+                        <li><button class="button_player" id="button_player_4">btn4</button></li>
+                    </ul>
+                </div>
+                <div>
+                    <input type="text" id="input_player">
+                    <button class="button_player_2" id="button_player_5">확인</button>
+                </div>
             </div>
-        </section>
+        </section><!--#display_player-->
 
     </div><!--#container-->
 </body>
