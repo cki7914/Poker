@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+.card{
+    width: 124px;
+    height: 176px;
+    border: 1px solid white;
+}
+
+/* #container */
+#container{
+    background-color: darkgreen;
+    width: 1200px;
+    height: 900px;
+    margin: 20px auto;
+    border: 20px solid rgb(134, 56, 0);
+    position: relative;
+}
+
+/* #display_public */
+#display_public{
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -250px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
+#display_public_deckArea{
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#display_public_deck{
+    position: absolute;
+    top: 50%;
+    margin-top: -88px;
+    left: 80px;
+}
+
+#display_public_deckCount{
+    width: 176px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 140px;
+}
+
+#display_public_betArea{
+    width: 50%;
+    height: 100%;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poker</title>
+    <link rel="stylesheet" href="./style/style_1.css">
 </head>
 <body>
     <div id="container">
@@ -12,7 +13,7 @@
         <section id="display_public">
             <div id="display_public_deckArea">
                 <div id="display_public_deck" class = "card"></div>
-                <div id="display_public_deckCount"></div>
+                <div id="display_public_deckCount">52</div>
             </div>
             <div id="display_public_betArea">
                 <div id="display_public_bet"></div>
@@ -52,6 +53,19 @@
             </div>
         </section><!--#display_player-->
 
+        <div id="display_dealer">
+            <div id="display_dealer_handArea">
+                <ul>
+                    <li><div id="display_dealer_hand_1" class="card"></div></li>
+                    <li><div id="display_dealer_hand_2" class="card"></div></li>
+                    <li><div id="display_dealer_hand_3" class="card"></div></li>
+                    <li><div id="display_dealer_hand_4" class="card"></div></li>
+                    <li><div id="display_dealer_hand_5" class="card"></div></li>
+                </ul>
+            </div>
+        </div><!--#display_dealer-->
+
+        <script src="./script/script_1.js"></script>
     </div><!--#container-->
 </body>
 </html>
