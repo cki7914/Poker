@@ -25,34 +25,34 @@ li{
     margin: 20px auto;
     border: 20px solid rgb(134, 56, 0);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* #display_public */
 #display_public{
     width: 500px;
-    height: 300px;
+    height: 250px;
     border: 1px solid white;
-    position: absolute;
-    top: 50%;
-    margin-top: -150px;
-    left: 50%;
-    margin-left: -250px;
     position: relative;
     padding: 10px;
     display: flex;
+    margin: 0 auto;
 }
 
 #display_public_deckArea{
     width: 50%;
     height: 100%;
     margin-right: 10px;
+    position: relative;
 }
 
 #display_public_deck{
     position: absolute;
     top: 50%;
     margin-top: -88px;
-    left: 80px;
+    left: 60px;
 }
 
 #display_public_deckCount{
@@ -66,10 +66,71 @@ li{
     position: absolute;
     top: 50%;
     margin-top: -15px;
-    left: 140px;
+    left: 120px;
 }
 
 #display_public_betArea{
     width: 50%;
     height: 100%;
+    position: relative;
+}
+
+#display_public_betText{
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top : 50%;
+    margin-top: -55px;
+    right: 60px;
+}
+
+#display_public_bet{
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 60px;
+}
+
+/* #display_player */
+#display_player{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid white;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#display_player ul{
+    display: flex;
+}
+
+#display_player .button_mulligan{
+    width: 124px;
+}
+
+/* #display_dealer */
+#display_dealer{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid white;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#display_dealer ul{
+    display: flex;
 }

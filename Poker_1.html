@@ -10,13 +10,26 @@
 <body>
     <div id="container">
 
+        <div id="display_dealer">
+            <div id="display_dealer_handArea">
+                <ul>
+                    <li><div id="display_dealer_hand_1" class="card"></div></li>
+                    <li><div id="display_dealer_hand_2" class="card"></div></li>
+                    <li><div id="display_dealer_hand_3" class="card"></div></li>
+                    <li><div id="display_dealer_hand_4" class="card"></div></li>
+                    <li><div id="display_dealer_hand_5" class="card"></div></li>
+                </ul>
+            </div>
+        </div><!--#display_dealer-->
+
         <section id="display_public">
             <div id="display_public_deckArea">
                 <div id="display_public_deck" class = "card"></div>
                 <div id="display_public_deckCount">52</div>
             </div>
             <div id="display_public_betArea">
-                <div id="display_public_bet"></div>
+                <div id="display_public_betText">총 베팅금액</div>
+                <div id="display_public_bet">0</div>
             </div>
         </section><!--#display_public-->
 
@@ -38,34 +51,25 @@
                 </ul>
             </div>
             <div id="display_player_betArea">
-                <div>
-                    <ul>
-                        <li><button class="button_player" id="button_player_1">btn1</button></li>
-                        <li><button class="button_player" id="button_player_2">btn2</button></li>
-                        <li><button class="button_player" id="button_player_3">btn3</button></li>
-                        <li><button class="button_player" id="button_player_4">btn4</button></li>
-                    </ul>
-                </div>
+                <table>
+                    <tr>
+                        <td><button class="button_player" id="button_player_1">btn1</button></td>
+                        <td><button class="button_player" id="button_player_2">btn2</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button_player" id="button_player_3">btn3</button></td>
+                        <td><button class="button_player" id="button_player_4">btn4</button></td>
+                    </tr>
+                </table>
                 <div>
                     <input type="text" id="input_player">
                     <button class="button_player_2" id="button_player_5">확인</button>
                 </div>
             </div>
         </section><!--#display_player-->
-
-        <div id="display_dealer">
-            <div id="display_dealer_handArea">
-                <ul>
-                    <li><div id="display_dealer_hand_1" class="card"></div></li>
-                    <li><div id="display_dealer_hand_2" class="card"></div></li>
-                    <li><div id="display_dealer_hand_3" class="card"></div></li>
-                    <li><div id="display_dealer_hand_4" class="card"></div></li>
-                    <li><div id="display_dealer_hand_5" class="card"></div></li>
-                </ul>
-            </div>
-        </div><!--#display_dealer-->
-
-        <script src="./script/script_1.js"></script>
+       
     </div><!--#container-->
+
+    <script src="./script/script_1.js"></script>
 </body>
 </html>
